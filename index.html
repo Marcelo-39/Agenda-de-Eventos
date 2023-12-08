@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda de Eventos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="JavaScript.js"></script>
+</head>
+<body>
+  <div class="agenda">
+    <h2>Agenda de Eventos</h2>
+    <select id="local" class="button-effects">
+      <option value="">Selecione Cimatec</option>
+      <option value="cimatec1">Cimatec 1</option>
+      <option value="cimatec2">Cimatec 2</option>
+      <option value="cimatec3">Cimatec 3</option>
+      <option value="cimatec4">Cimatec 4</option>
+      <option value="pavilhao">Pavilhão</option>
+    </select>
+    <select id="Aud" class="button-effects">
+      <option value="">Selecione Auditório</option>
+      <option value="auditorio1">Auditório 1</option>
+      <option value="auditorio2">Auditório 2</option>
+      <option value="auditorio3">Auditório 3</option>
+      <option value="auditorio4">Auditório 4</option>
+      <option value="auditorio2_2">Auditório 2.2</option>
+      <option value="auditorio13_14">Auditório 13/14</option>
+    </select>
+    <input type="date" id="data" class="button-effects">
+    <input type="time" id="hora" class="button-effects">
+  </div>
+  <div class="resultado"></div>
+  <div class="evento-buttons">
+    <button onclick="adicionarEvento()" class="button-effects">Adicionar Evento</button>
+    <button onclick="alterarEvento()" class="button-effects">Alterar</button>
+    <button onclick="excluirEvento()" class="button-effects">Excluir</button>
+  </div>
+  <div class="evento-list"></div>
+  <script src="script.js"></script>
+</body>
+</html>

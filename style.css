@@ -1,0 +1,45 @@
+.agenda {
+  margin: 20px;
+  text-align: center;
+}
+
+select,
+input[type="date"],
+input[type="time"],
+button {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+select:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+button:hover {
+  border-color: blue;
+}
+
+.evento-buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+.button-effects {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: rgb(157, 165, 168);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-effects:hover {
+  background-color: dodgerblue;
+}
+
+.evento-list {
+  margin-top: 20px;
+}
